@@ -1,8 +1,10 @@
+/* Creates variables for the 2 most used colors in the webpage */
 :root {
     --primary-color: #00adee;
     --secondary-color: #1b4297;
 }
 
+/* Good starter CSS for every html page */
 * {
     margin: 0;
     padding: 0;
@@ -80,6 +82,7 @@ section {
     color: var(--primary-color);
 }
 
+/* Applies style to every section header that includes bottom border */
 .section-title {
     padding-bottom: 20px;
     text-align: center;
@@ -96,6 +99,7 @@ section {
     text-align: left;
 }
 
+/* Adds border to the photo of me */
 .bio img {
     width: 20%;
     border: 5px solid var(--primary-color);
@@ -130,6 +134,7 @@ section {
     border: 5px solid var(--primary-color);
 }
 
+/* Makes images slightly transparent when hovered over */
 .work:hover {
     opacity: 0.7;
 }
@@ -159,27 +164,27 @@ section {
     margin: 20px 100px;
 }
 
-footer div, footer article {
+footer div,
+footer article {
     text-align: center;
     width: 100%;
 }
 
+/* Makes the first webpage, Run Buddy, the biggest on the screen */
 #run-buddy {
     margin: 20px 50px;
     width: 50%;
     flex: 100%;
 }
 
-#horiseon {
-    margin: 0 10px;
-    flex: 40%;
-}
-
+/* Fits the other 2 webpages in the same row */
+#horiseon,
 #soccer-fan-central {
     margin: 0 10px;
     flex: 40%;
 }
 
+/* Defines the flex properties for each element that adds this class */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +237,7 @@ footer div, footer article {
 
     .bio img {
         width: 30%;
-    } 
+    }
 
     .flex-row {
         flex-direction: column;
