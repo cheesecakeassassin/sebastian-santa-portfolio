@@ -10,7 +10,7 @@ This is my portfolio where I will share all of my latest projects! Feel free to 
 ## Website 
 https://cheesecakeassassin.github.io/sebastian-santa-portfolio/
 
-## Github repository 
+## GitHub repository 
 https://github.com/cheesecakeassassin/sebastian-santa-portfolio
 
 ## Working page screenshots 
