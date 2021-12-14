@@ -27,24 +27,33 @@
             </nav>
         </header>
         <section id="about">
-            <div class="flex-row">
+            <div>
                 <h2 class="section-title">About</h2>
             </div>
-            <div class="flex-row">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Maiores esse fuga nemo fugiat quod delectus in animi
-                    voluptatibus temporibus assumenda, consequuntur voluptate
-                    illo modi earum sunt perferendis ex laboriosam sint?
-                </p>
-            </div>
+            <article class="bio flex-row">
+                <img
+                    src="./assets/images/sebastianWithAcoustic.jpg"
+                    alt="Sebastian Santa posing with his acoustic guitar"
+                />
+                <div class="bio-text">
+                    <h3>Sebastian Santa</h3>
+                    <h4>GitHub: cheesecakeassassin</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores esse fuga nemo fugiat quod delectus in animi
+                        voluptatibus temporibus assumenda, consequuntur
+                        voluptate illo modi earum sunt perferendis ex laboriosam
+                        sint?
+                    </p>
+                </div>
+            </article>
         </section>
         <section id="my-work">
-            <div class="flex-row">
+            <div>
                 <h2 class="section-title">My Work</h2>
             </div>
-            <div class="works flex-row">
-                <article class="work">
+            <div class="works">
+                <article id="run-buddy" class="work">
                     <a href="https://cheesecakeassassin.github.io/run-buddy/">
                         <img
                             src="./assets/images/run-buddy.png"
@@ -54,7 +63,7 @@
                     <h3 class="work-text">Run Buddy</h3>
                 </article>
 
-                <article class="work">
+                <article id="horiseon" class="work">
                     <a
                         href="https://cheesecakeassassin.github.io/horiseon-accessibility-refactor/"
                     >
@@ -67,14 +76,14 @@
                     <h3 class="work-text">Horiseon</h3>
                 </article>
 
-                <article class="work">
-                    <a href="https://tetris.com">
+                <article id="soccer-fan-central" class="work">
+                    <a href="https://cheesecakeassassin.github.io/group5-football-fanpage/">
                         <img
-                            src="./assets/images/tetris.png"
-                            alt="Tetris page for playing and reading about Tetris"
+                            src="./assets/images/soccer-fan-central.png"
+                            alt="Center for all your footballing needs"
                         />
                     </a>
-                    <h3 class="work-text">Tetris</h3>
+                    <h3 class="work-text">Soccer Fan Central</h3>
                 </article>
             </div>
         </section>
