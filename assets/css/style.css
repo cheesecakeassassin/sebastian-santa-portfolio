@@ -178,8 +178,8 @@ footer article {
 }
 
 /* Fits the other 2 webpages in the same row */
-#horiseon,
-#soccer-fan-central, #mcu-countdown-clock, #run-buddy {
+#password-generator,
+#soccer-fan-central, #mcu-countdown-clock, #team-generator {
     margin: 0 10px 20px 10px;
     flex: 40%;
 }
