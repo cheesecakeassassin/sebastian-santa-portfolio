@@ -171,7 +171,7 @@ footer article {
 }
 
 /* Makes the first webpage, Run Buddy, the biggest on the screen */
-#run-buddy {
+#flowers-to-go {
     margin: 20px 50px;
     width: 50%;
     flex: 100%;
@@ -179,8 +179,8 @@ footer article {
 
 /* Fits the other 2 webpages in the same row */
 #horiseon,
-#soccer-fan-central {
-    margin: 0 10px;
+#soccer-fan-central, #mcu-countdown-clock, #run-buddy {
+    margin: 0 10px 20px 10px;
     flex: 40%;
 }
 
