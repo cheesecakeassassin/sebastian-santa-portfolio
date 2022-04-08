@@ -82,6 +82,14 @@ section {
     color: var(--primary-color);
 }
 
+#resume {
+    margin-top: 50px;
+}
+
+.embed-resume {
+    text-align: center;
+}
+
 /* Applies style to every section header that includes bottom border */
 .section-title {
     padding-bottom: 20px;
