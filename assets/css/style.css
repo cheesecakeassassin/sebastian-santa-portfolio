@@ -186,7 +186,7 @@ footer article {
 }
 
 /* Fits the other 2 webpages in the same row */
-#password-generator,
+#twitch-user-search,
 #soccer-fan-central, #mcu-countdown-clock, #team-generator {
     margin: 0 10px 20px 10px;
     flex: 40%;
